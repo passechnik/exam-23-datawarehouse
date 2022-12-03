@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Rubik:wght@300;700&family=Work+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav, section, footer {
+    max-width: 1170px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.nav li:hover {
+    cursor: pointer;
+    color: #8A40EE;
+}
+
+.nav__menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+
+}
+
+.nav__logo {
+    width: 44px;
+    height: 35px;
+}
+
+.request {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 210px;
+    height: 60px;
+    border: 1px solid #9C69E2;
+    box-shadow: 0px 5px 5px
+        rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+}
+
+.request:hover {
+    background: #9C69E2;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    position: relative;
+    height: 490px;
+}
+
+h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    color: #212353;
+    display: flex;
+    align-items: center;
+    width: 601px;
+    height: 177px;
+    margin-top: 0;
+}
+
+.hero p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    width: 370px;
+    height: 117px;
+    margin-bottom: 50px;
+}
+
+.hero__button {
+    width: 210px;
+    height: 60px;
+    background: #9C69E2;
+    border: 1px solid #9C69E2;
+    box-shadow: 0px 5px 5px
+        rgba(75, 93, 104, 0.1);
+        border-radius: 50px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.hero img {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}

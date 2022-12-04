@@ -86,13 +86,17 @@ h1 {
     margin-top: 0;
 }
 
-.hero p {
+p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 160%;
     color: #4B5D68;
+
+}
+
+.hero p {
     width: 370px;
     height: 117px;
     margin-bottom: 50px;
@@ -114,9 +118,46 @@ h1 {
     line-height: 160%;
 }
 
+.hero__button:hover {
+    background: ;
+}
+
 .hero img {
     position: absolute;
     z-index: -1;
     bottom: 0;
     right: 0;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    background-color: #FDE8F5;
+    border-radius: 50px;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+.about-us__img {
+    margin: 75px 70px;
+    margin-right: 0;
+}
+
+.about-us__text {
+    width: 500px;
+    height: 340px;
+    margin: 110px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    color: #212353;
+
 }

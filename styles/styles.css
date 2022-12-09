@@ -350,3 +350,42 @@ a {
     height: 90px;
 
 }
+
+.try4free {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.try4free__buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.pink-button {
+    width: 210px;
+    height: 60px;
+    background-color: #f063b8;
+    color: white;
+    border: 1px solid #f063b8;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.pink-button:hover {
+    background: #EB4BAB;
+}
